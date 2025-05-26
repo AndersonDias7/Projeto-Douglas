@@ -42,7 +42,10 @@ nav a {
     text-align: center;
     
 }
-.hero h2, p{
+.hero h2{
+    color: white
+}
+.hero p{
     color: white
 }
 
@@ -168,6 +171,16 @@ footer {
     }
     .fotos{
         width: 100px;
+    }
+    header{
+        font-size: 10px;
+        width: 100%;
+    }
+    .hero{
+        width: 100%;
+    }
+    #openMenuBtn{
+        height: 40px;
     }
 }
 
