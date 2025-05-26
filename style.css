@@ -6,7 +6,9 @@
 
 
 body {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100vw;
     margin: 0;
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
@@ -37,15 +39,17 @@ nav a {
     background-image: url('img/imagem6.png');
     background-size: cover;
     background-position: center;
-    
+
     padding: 100px 20px;
     text-align: center;
-    
+
 }
-.hero h2{
+
+.hero h2 {
     color: white
 }
-.hero p{
+
+.hero p {
     color: white
 }
 
@@ -159,27 +163,31 @@ footer {
     background-color: rgba(0, 0, 0, 0.818);
     color: white;
     padding-left: 20px;
-    
+
 
 }
 
-@media (max-width: 600px){
-    #openMenuBtn{
-        
+@media (max-width: 600px) {
+    #openMenuBtn {
+
         font-size: 20px;
 
     }
-    .fotos{
-        width: 100px;
+
+    .fotos {
+        width: 50px;
     }
-    header{
+
+    header {
         font-size: 10px;
         width: 100%;
     }
-    .hero{
+
+    .hero {
         width: 100%;
     }
-    #openMenuBtn{
+
+    #openMenuBtn {
         height: 40px;
     }
 }
