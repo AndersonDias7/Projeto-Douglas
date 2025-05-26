@@ -9,3 +9,9 @@ openBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   sidebar.classList.remove('show');
 });
+
+// Exemplo: mostrar alerta quando o formulário for enviado
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Mensagem enviada com sucesso! 📸");
+});
