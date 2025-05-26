@@ -44,7 +44,7 @@ nav a {
     padding: 90px 20px;
     text-align: center;
     box-shadow: none;
-    
+
 
 }
 
@@ -160,12 +160,12 @@ footer {
     height: 60px;
     display: flex;
     width: 100%;
-    font-size: 24px;
+    font-size: 30px;
     background: none;
     border: none;
     cursor: pointer;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.818);
+    background-color: rgba(0, 0, 0, 0.932);
     color: white;
     padding-left: 20px;
 
@@ -181,7 +181,7 @@ footer {
     }
 
     .fotos img {
-        width: 370px;
+        width: 100%;
     }
 
     header {
@@ -195,10 +195,11 @@ footer {
     }
 
     #openMenuBtn {
-         width: auto;
-    height: auto;
-    padding: 10px;
-    font-size: 20px;
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.87);
     }
 
     nav {
