@@ -160,10 +160,14 @@ footer {
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     #openMenuBtn{
         
         font-size: 20px;
+
+    }
+    .fotos{
+        width: 100px;
     }
 }
 
